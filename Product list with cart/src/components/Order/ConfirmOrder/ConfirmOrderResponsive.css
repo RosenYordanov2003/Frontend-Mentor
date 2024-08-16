@@ -1,0 +1,13 @@
+@media screen and (max-width: 700px) {
+    .order{
+       width: 88%;
+       padding: 1rem;
+       margin-inline: 0.5rem;
+    }
+    .order-title{
+        font-size: 1.6rem;
+    }
+    .item-img-container{
+        width: 4.7rem;
+    }
+}

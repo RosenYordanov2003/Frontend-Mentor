@@ -1,0 +1,33 @@
+.about-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.product-quantity {
+  font-weight: bolder;
+  color: #c73a0f;
+  margin-right: 2rem;
+}
+.about-item > p{
+   margin-top: 0;
+   font-size: 1.1rem;
+}
+.cart-product-price {
+  color: rgb(173, 137, 133);
+}
+.product-total-price {
+  color: rgb(135, 99, 90);
+  font-weight: bolder;
+  margin-left: 0.4rem;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 288px;
+}
+.separator {
+  height: 0;
+  border: 0;
+  border-top: 1px solid rgb(244, 237, 235);
+}

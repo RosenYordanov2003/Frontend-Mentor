@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+    .cart{
+        width: 94%;
+        padding: 1.5rem;
+    }
+    .product-total-price{
+        margin-left: 0.8rem;
+    }
+    .cart-item{
+        width: 100%;
+    }
+    .delivery{
+        justify-content: center;
+    }
+}

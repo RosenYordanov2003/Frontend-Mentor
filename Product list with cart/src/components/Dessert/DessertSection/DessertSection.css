@@ -1,0 +1,12 @@
+.desserts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.desserts{
+    padding: 2rem;
+}
+.dessert-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;;
+}

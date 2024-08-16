@@ -1,0 +1,9 @@
+@media screen and (max-width: 700px) {
+    .img-container{
+        width: 100%;
+    }
+    .button-container{
+        width: 60%;
+        padding-block: 0.7rem;
+    }
+}

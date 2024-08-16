@@ -1,0 +1,21 @@
+@media screen and (max-width: 700px) {
+    .desserts-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dessert-title{
+        text-align: center;
+    }
+    .desserts{
+        padding: 1rem;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1400px) {
+    .desserts-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .dessert-title{
+        text-align: center;
+    }
+}

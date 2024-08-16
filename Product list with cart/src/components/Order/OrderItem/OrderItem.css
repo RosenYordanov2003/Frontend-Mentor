@@ -1,0 +1,41 @@
+.item-img-container{
+    width: 5rem;
+}
+.item-img-container > img{
+    width: 100%;
+}
+.order-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-order-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.4rem;
+}
+.order-item-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.order-item-amount{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.order-item-amount > p,
+.order-item-title{
+    margin: 0;
+}
+.order-item-price{
+    color: rgb(173, 137, 133);
+}
+.order-item-amount{
+    color: #c73a0f;
+    font-weight: bolder;
+}
+.order-item-total-price{
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
